@@ -163,7 +163,6 @@ def help_note():
     print('dns  --   查看当前DNS')
     print('all  --   查看所有网络适配器信息')
     print('h    --   显示帮助')
-    print('doc')
     # print('q    --   退出')
 
 
