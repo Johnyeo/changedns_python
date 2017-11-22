@@ -4,7 +4,9 @@ from re import findall
 from wmi import WMI
 from ctypes import windll
 from sys import executable
-
+'''
+sync
+'''
 
 class Network2(object):
     @property
@@ -187,7 +189,9 @@ def run():
 
 
     while True:
-        c = input('>>')
+        i = input('>>')
+        c = str.strip(i)
+
 
         if c == '1':
             modifyDNS(Network2().testEnvDNS)
